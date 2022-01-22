@@ -8,50 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">132,413</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,869</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.WrongPasswordFormatTest</td><td><a href="#m0">WrongPasswordFormat</a></td><td rowspan="1">1642711326126</td><td rowspan="1">80285</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.InputboxTest</td><td><a href="#m1">inputbox</a></td><td rowspan="1">1642711274224</td><td rowspan="1">45080</td></tr><tr class="passedodd"><td rowspan="1">testCases.Linktest</td><td><a href="#m2">link</a></td><td rowspan="1">1642711274224</td><td rowspan="1">56944</td></tr><tr class="passedeven"><td rowspan="1">testCases.NewGmailTest</td><td><a href="#m3">NewGmail</a></td><td rowspan="1">1642711330644</td><td rowspan="1">53407</td></tr><tr class="passedodd"><td rowspan="1">testCases.NextButtonTest</td><td><a href="#m4">nextButton</a></td><td rowspan="1">1642711321249</td><td rowspan="1">52512</td></tr><tr class="passedeven"><td rowspan="1">testCases.PasswordMatchTest</td><td><a href="#m5">passwordMatch</a></td><td rowspan="1">1642711274224</td><td rowspan="1">56417</td></tr><tr class="passedodd"><td rowspan="1">testCases.PasswordMismatchTest</td><td><a href="#m6">passwordMismatch</a></td><td rowspan="1">1642711331171</td><td rowspan="1">18935</td></tr><tr class="passedeven"><td rowspan="1">testCases.ShowPasswordTest</td><td><a href="#m7">showPassword</a></td><td rowspan="1">1642711274224</td><td rowspan="1">51897</td></tr><tr class="passedodd"><td rowspan="1">testCases.SigninTest</td><td><a href="#m8">signin</a></td><td rowspan="1">1642711274224</td><td rowspan="1">47022</td></tr><tr class="passedeven"><td rowspan="1">testCases.emailInputTest</td><td><a href="#m9">emailWrongInput</a></td><td rowspan="1">1642711319319</td><td rowspan="1">44989</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.emailInputTest</td><td><a href="#m0">emailWrongInput</a></td><td rowspan="1">1642858642148</td><td rowspan="1">6834</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCases.WrongPasswordFormatTest#WrongPasswordFormat</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@jsname=&quot;B34EJ&quot;]/span (tried for 60 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at testCases.WrongPasswordFormatTest.WrongPasswordFormat(WrongPasswordFormatTest.java:32)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@jsname=&quot;B34EJ&quot;]/span&quot;}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HUGO-TECH-175&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\HUGO-T~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61464}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: db7ff6d44cc9e0b245405d25cf6e0e0d
-*** Element info: {Using=xpath, value=//div[@jsname=&quot;B34EJ&quot;]/span}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 16 more
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.InputboxTest#inputbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.Linktest#link</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.NewGmailTest#NewGmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.NextButtonTest#nextButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.PasswordMatchTest#passwordMatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testCases.PasswordMismatchTest#passwordMismatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testCases.ShowPasswordTest#showPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testCases.SigninTest#signin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">testCases.emailInputTest#emailWrongInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">testCases.emailInputTest#emailWrongInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
